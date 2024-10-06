@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ShoppingCart, Bell, Heart, Tally1 } from 'lucide-react';
-import Cart from '../Cart/Cart';
+import Cart from './Cart';
 
 const SearchBar: React.FC = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
